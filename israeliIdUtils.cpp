@@ -9,6 +9,7 @@ unsigned char UTILS_zipTheNumber_SumDigits(unsigned char num) {
 	}
 	return sum;
 }
+
 bool UTILS_isValidIsraelicId(std::string id) {
 	if (id.length() != 9) return false;
 	// check if id is number
